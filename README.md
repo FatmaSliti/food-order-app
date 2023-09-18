@@ -17,9 +17,9 @@ Welcome to the Food Order App! This React-based application allows users to conv
 
 ## Screenshots
 
-![Homepage](screenshots/homepage.png)
+![Homepage](img/food1.png)
 
-![Menu Selection](screenshots/menu-selection.png)
+![Menu Selection](img/food2.png)
 
 
 
