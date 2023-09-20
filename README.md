@@ -9,12 +9,12 @@ Welcome to the Food Order App! This React-based application allows users to conv
 - add meals to the cart
 - remove meals from the cart
 
+
 ## Screenshots
 
-![Homepage](img/food3.png)
+![Homepage](img/food5.png)
 
-![Menu Selection](img/food4.png)
-
+![Menu Selection](img/food6.png)
 
 ### Installation
 - git clone https://github.com/yourusername/food-order-app-react.git
