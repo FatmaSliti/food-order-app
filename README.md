@@ -6,8 +6,6 @@ Welcome to the Food Order App! This React-based application allows users to conv
 - Browse a variety of food items.
 - Customize food orders with options and preferences.
 - Place orders securely.
-- Track the status of your orders.
-- Receive order updates and delivery notifications.
 
 ### Installation
 - git clone https://github.com/yourusername/food-order-app-react.git
