@@ -22,7 +22,7 @@ const MealItemForm = (props) => {
     };
 
     return (
-        <form className={styles.form} onClick={submitHandler}>
+        <form className={styles.form} onSubmit={submitHandler}>
             <div>
                 <Input
                     ref={amountInputRef}
