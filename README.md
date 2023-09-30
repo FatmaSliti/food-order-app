@@ -16,6 +16,8 @@ Welcome to the Food Order App! This React-based application allows users to conv
 
 ![Menu Selection](img/food6.png)
 
+![Menu Selection](img/food.png)
+
 ### Installation
 - git clone https://github.com/yourusername/food-order-app-react.git
 - cd food-order-app
