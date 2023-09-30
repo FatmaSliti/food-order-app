@@ -54,6 +54,11 @@ const cartReducer = (state, action) => {
             totalAmount: updatedTotalAmount,
         };
     }
+
+    if (action.type === 'CLEAR') {
+        return defaultCartState
+    } // we can omit it since w'll return the default state anyways but doing it like this is a bit more explicit
+
     return defaultCartState;
 };
 
@@ -68,12 +73,17 @@ const CartProvider = props => {
         dispatchCartAction({ type: 'REMOVE_ITEM', id: id });
     };
 
+    const clearCartHandler = () => {
+        dispatchCartAction({ type: 'CLEAR' });
+    }
+
     const cartContext = {
         //these are the concrete values
         items: cartState.items,
         totalAmount: cartState.totalAmount,
         addItem: addItemToCartHandler,
         removeItem: removeItemFromCartHandler,
+        clearCart: clearCartHandler
     }
 
     return (
