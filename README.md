@@ -1,4 +1,4 @@
-# Food Order App (I'm currently working on this app)
+# Food Order App 
 Welcome to the Food Order App! This React-based application allows users to conveniently browse a menu, place food orders, and have them delivered to their location.
 
 ## Features
